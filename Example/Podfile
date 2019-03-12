@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'iHash_Example' do
+  pod 'iHash', :path => '../'
+
+  target 'iHash_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
