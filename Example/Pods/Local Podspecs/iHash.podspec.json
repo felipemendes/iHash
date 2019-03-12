@@ -1,0 +1,22 @@
+{
+  "name": "iHash",
+  "version": "0.1.0",
+  "summary": "A short description of iHash.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/felipemendes/iHash",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "felipemendes": "f.ribeiromendes@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/felipemendes/iHash.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "iHash/Classes/**/*"
+}

@@ -1,0 +1,16 @@
+PODS:
+  - iHash (0.1.0)
+
+DEPENDENCIES:
+  - iHash (from `../`)
+
+EXTERNAL SOURCES:
+  iHash:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  iHash: 1c2697cf6181454769cc1d4951127de10c2ec4ae
+
+PODFILE CHECKSUM: 18f75fbc043de464ecd16fcfb9924260c71b2605
+
+COCOAPODS: 1.6.1
