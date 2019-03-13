@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		029EEB3D2238838C005684CE /* Hash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029EEB3C2238838C005684CE /* Hash.swift */; };
 		36486475A961D897526A58D1A16079ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		4A41AC22ECDBB4311F52F7662DEDC2FC /* Pods-iHash_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E2606B894F34775BAA335D390999204 /* Pods-iHash_Tests-dummy.m */; };
 		5B9C8C0562A6EFC1F92CCA5469F826BD /* Pods-iHash_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F87E36EFF97F25FFBD5608BC9D95D8F9 /* Pods-iHash_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		68475D0733186551FADC75031B40D36B /* Pods-iHash_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A9A9296BC244242E4BA88A4E4811F872 /* Pods-iHash_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8F3E82575BBE40E62AA33A1D19B0232F /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448BE5D5D075B7FCE29883C91ABE5981 /* ReplaceMe.swift */; };
 		99E74DBB4235B660439C27F4019334CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		B2619460EF3328E11C7C60352508650A /* iHash-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E487270E74D9762266EE3F9DFB6F588 /* iHash-dummy.m */; };
 		B2D08DF609F47986FAC36AB5A5DB9BFE /* iHash-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E2EF8A6BDD54ED4210A8D72D1148B49F /* iHash-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -37,10 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		029EEB3C2238838C005684CE /* Hash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hash.swift; sourceTree = "<group>"; };
 		0DE22D4F79AAE798A62956AF5CB6E126 /* Pods-iHash_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iHash_Example.release.xcconfig"; sourceTree = "<group>"; };
 		3B0585064CEEBE1EAA14C07EBEC882EB /* Pods_iHash_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iHash_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E2606B894F34775BAA335D390999204 /* Pods-iHash_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iHash_Tests-dummy.m"; sourceTree = "<group>"; };
-		448BE5D5D075B7FCE29883C91ABE5981 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = iHash/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		4A00DC21E4619EFEB580F9CF90D36B9A /* iHash-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "iHash-Info.plist"; sourceTree = "<group>"; };
 		4B24CFB7025CCE517A7D8629B64EF7C7 /* iHash.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = iHash.modulemap; sourceTree = "<group>"; };
 		5517FAFCDC06329A88FB0CD579079025 /* Pods_iHash_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iHash_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -126,9 +126,9 @@
 		7FB7CEFE2791041B608B79E76CB47C86 /* iHash */ = {
 			isa = PBXGroup;
 			children = (
-				448BE5D5D075B7FCE29883C91ABE5981 /* ReplaceMe.swift */,
 				0390B700ED8BD4B4274B38E6ECA9C699 /* Pod */,
 				45FEA749A0D8A335D6DACCDA97E3850B /* Support Files */,
+				029EEB3C2238838C005684CE /* Hash.swift */,
 			);
 			name = iHash;
 			path = ../..;
@@ -378,7 +378,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B2619460EF3328E11C7C60352508650A /* iHash-dummy.m in Sources */,
-				8F3E82575BBE40E62AA33A1D19B0232F /* ReplaceMe.swift in Sources */,
+				029EEB3D2238838C005684CE /* Hash.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,6 +446,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5C85BE9A773DD52A839892475FF85554 /* iHash.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -466,6 +467,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -574,6 +576,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5C85BE9A773DD52A839892475FF85554 /* iHash.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";

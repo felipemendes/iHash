@@ -22,7 +22,7 @@ pod 'iHash'
 
 ## Author
 
-felipemendes, f.ribeiromendes@gmail.com
+[felipemendes](felipemendes@me.com)
 
 ## License
 
