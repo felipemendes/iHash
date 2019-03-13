@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		029EEB3D2238838C005684CE /* Hash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029EEB3C2238838C005684CE /* Hash.swift */; };
+		023DED2222389795000BB9B9 /* Hash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023DED2122389795000BB9B9 /* Hash.swift */; };
 		36486475A961D897526A58D1A16079ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		4A41AC22ECDBB4311F52F7662DEDC2FC /* Pods-iHash_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E2606B894F34775BAA335D390999204 /* Pods-iHash_Tests-dummy.m */; };
 		5B9C8C0562A6EFC1F92CCA5469F826BD /* Pods-iHash_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F87E36EFF97F25FFBD5608BC9D95D8F9 /* Pods-iHash_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		029EEB3C2238838C005684CE /* Hash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hash.swift; sourceTree = "<group>"; };
+		023DED2122389795000BB9B9 /* Hash.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hash.swift; sourceTree = "<group>"; };
 		0DE22D4F79AAE798A62956AF5CB6E126 /* Pods-iHash_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iHash_Example.release.xcconfig"; sourceTree = "<group>"; };
 		3B0585064CEEBE1EAA14C07EBEC882EB /* Pods_iHash_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iHash_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E2606B894F34775BAA335D390999204 /* Pods-iHash_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iHash_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -99,10 +99,10 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		023DED1E223893FB000BB9B9 /* Classes */ = {
+		0256EAF62238989400D684B2 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				029EEB3C2238838C005684CE /* Hash.swift */,
+				023DED2122389795000BB9B9 /* Hash.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -134,9 +134,9 @@
 		7FB7CEFE2791041B608B79E76CB47C86 /* iHash */ = {
 			isa = PBXGroup;
 			children = (
+				0256EAF62238989400D684B2 /* Classes */,
 				0390B700ED8BD4B4274B38E6ECA9C699 /* Pod */,
 				45FEA749A0D8A335D6DACCDA97E3850B /* Support Files */,
-				023DED1E223893FB000BB9B9 /* Classes */,
 			);
 			name = iHash;
 			path = ../..;
@@ -386,7 +386,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B2619460EF3328E11C7C60352508650A /* iHash-dummy.m in Sources */,
-				029EEB3D2238838C005684CE /* Hash.swift in Sources */,
+				023DED2222389795000BB9B9 /* Hash.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
