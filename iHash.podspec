@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'iHash'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'A short description of iHash.'
 
 # This description is used to generate tags and improve search results.
@@ -25,12 +25,12 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'felipemendes' => 'felipemendes@me.com' }
-  s.source           = { :git => 'https://github.com/felipemendes/iHash.git', :commit => "53771ddc6fd4b36e38bbb9943b6247ce5592f21b", :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/felipemendes/iHash.git', :tag => s.version }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'iHash/Classes/**/*'
+  s.source_files = 'iHash/Classes/*.swift'
   
   # s.resource_bundles = {
   #   'iHash' => ['iHash/Assets/*.png']

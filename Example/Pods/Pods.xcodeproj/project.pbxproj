@@ -99,6 +99,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		023DED1E223893FB000BB9B9 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				029EEB3C2238838C005684CE /* Hash.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		0390B700ED8BD4B4274B38E6ECA9C699 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
@@ -128,7 +136,7 @@
 			children = (
 				0390B700ED8BD4B4274B38E6ECA9C699 /* Pod */,
 				45FEA749A0D8A335D6DACCDA97E3850B /* Support Files */,
-				029EEB3C2238838C005684CE /* Hash.swift */,
+				023DED1E223893FB000BB9B9 /* Classes */,
 			);
 			name = iHash;
 			path = ../..;
