@@ -1,6 +1,0 @@
-framework module iHash {
-  umbrella header "iHash-umbrella.h"
-
-  export *
-  module * { export * }
-}
