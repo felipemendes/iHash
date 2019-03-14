@@ -15,6 +15,7 @@
 		02118C00223B14300084F9BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02118BFE223B14300084F9BF /* Main.storyboard */; };
 		02118C02223B14320084F9BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02118C01223B14320084F9BF /* Assets.xcassets */; };
 		02118C05223B14320084F9BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02118C03223B14320084F9BF /* LaunchScreen.storyboard */; };
+		02118C0B223B153E0084F9BF /* iHash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02118C0A223B153E0084F9BF /* iHash.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +42,7 @@
 		02118C01223B14320084F9BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		02118C04223B14320084F9BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		02118C06223B14320084F9BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02118C0A223B153E0084F9BF /* iHash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iHash.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 			children = (
 				0208D65F223B134B00996D5C /* iHash.h */,
 				0208D660223B134B00996D5C /* Info.plist */,
+				02118C0A223B153E0084F9BF /* iHash.swift */,
 			);
 			path = iHash;
 			sourceTree = "<group>";
@@ -199,6 +202,7 @@
 				TargetAttributes = {
 					0208D65B223B134B00996D5C = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 					0208D664223B134B00996D5C = {
 						CreatedOnToolsVersion = 10.1;
@@ -260,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02118C0B223B153E0084F9BF /* iHash.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,6 +440,7 @@
 		0208D671223B134B00996D5C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -452,6 +458,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.felipemendes.iHash;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -460,6 +467,7 @@
 		0208D672223B134B00996D5C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -485,6 +493,7 @@
 		0208D674223B134B00996D5C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7G64V5XZM3;
 				INFOPLIST_FILE = iHashTests/Info.plist;
@@ -503,6 +512,7 @@
 		0208D675223B134B00996D5C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7G64V5XZM3;
 				INFOPLIST_FILE = iHashTests/Info.plist;
