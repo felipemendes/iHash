@@ -5,4 +5,4 @@ xcode_sdk: iphonesimulator10.0
 
 script:
 - set -o pipefail
-- travis_retry xcodebuild -workspace iHash.xcworkspace -scheme iHash -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO | xcpretty -c
+- travis_retry xcodebuild -workspace iHash.xcodeproj -scheme iHash -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO | xcpretty -c
