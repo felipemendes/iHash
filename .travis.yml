@@ -1,5 +1,8 @@
-language:
-  - swift
+language: objective-c
+
 osx_image: xcode10.1
+xcode_sdk: iphonesimulator10.0
+
 script:
-  - xcodebuild -scheme iHash -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone X,OS=12.1' build test
+- set -o pipefail
+- travis_retry xcodebuild -workspace iHash.xcworkspace -scheme iHash -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO | xcpretty -c
