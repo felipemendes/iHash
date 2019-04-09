@@ -5,8 +5,6 @@
 [![License](https://img.shields.io/cocoapods/l/iHash.svg?style=flat)](https://cocoapods.org/pods/iHash)
 [![Platform](https://img.shields.io/cocoapods/p/iHash.svg?style=flat)](https://cocoapods.org/pods/iHash)
 
-## iHash
-
 To run the example project, clone the repo, and run `pod install` from the iHash directory first.
 
 ## Installation
