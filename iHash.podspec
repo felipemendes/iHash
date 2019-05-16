@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "iHash"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "Lib that generates hash values"
 
   spec.description  = <<-DESC
