@@ -1,4 +1,4 @@
-# iHash
+# [iHash](https://cocoapods.org/pods/iHash)
 
 [![CI Status](https://img.shields.io/travis/felipemendes/iHash.svg?style=flat)](https://travis-ci.org/felipemendes/iHash)
 [![Version](https://img.shields.io/cocoapods/v/iHash.svg?style=flat)](https://cocoapods.org/pods/iHash)
